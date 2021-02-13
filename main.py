@@ -29,6 +29,9 @@ age = input("What will your character's age be?")
 time.sleep(5)
 response = f'Ok you are {age} years old'
 delay_print(response)
+country = input("Where will you be from?")
+time.sleep(5)
+response = f'Ok you will be from {country}'
 characterType = input("What type of character do you want to be?. You could be a warrior, a bowman, a mage or cavalry. Warriors have 100 hp, 110 defence and 90 attack. Bowmans have 90 hp, 100 defence and 110 attack. Mages have 110 hp, 110 defence and 80 attack. Cavalry have 110 hp, 80 defence and 110 attack. All of these characters also have abilitys and weapons")
 time.sleep(10)
 response = f'Ok you will be called {characterName}, your age will be {age}, and you will be a {characterType}'
