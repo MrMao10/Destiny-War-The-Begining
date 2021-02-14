@@ -20,9 +20,9 @@ class Character:
         
 class Archer(Character):
     archerStats = {
-        'hp': 100,
+        'hp': 90,
         'defence': 100,
-        'aatack': 100
+        'aatack': 110,
     }
 
 class Warrior(Character):
