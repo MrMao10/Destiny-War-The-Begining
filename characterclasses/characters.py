@@ -17,6 +17,13 @@ class Character:
 
     def printHp(self):
         print(self.hp)
+        
+class Archer(Character):
+    archerStats = {
+        'hp': 100,
+        'defence': 100,
+        'aatack': 100
+    }
 
 class Warrior(Character):
     stats = {
