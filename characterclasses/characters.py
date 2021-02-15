@@ -18,11 +18,17 @@ class Character:
     def printHp(self):
         print(self.hp)
         
+class Mage(Character):
+    mageStats = {
+        'hp' ,
+        'defence',
+        'attack' ,
+        
 class Cavalry(Character):
     cavalryStats = {
-        'hp': ,
-        'defence': ,
-        'attack': ,
+        'hp': 110,
+        'defence': 80,
+        'attack': 110,
         
 class Archer(Character):
     archerStats = {
