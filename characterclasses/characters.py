@@ -18,17 +18,23 @@ class Character:
     def printHp(self):
         print(self.hp)
         
+#defining how much stats each class has
+        
 class Mage(Character):
     mageStats = {
-        'hp' ,
-        'defence',
-        'attack' ,
+        'hp': 110,
+        'defence': 110,
+        'attack': 80,
+        
+    }
         
 class Cavalry(Character):
     cavalryStats = {
         'hp': 110,
         'defence': 80,
         'attack': 110,
+        
+    }
         
 class Archer(Character):
     archerStats = {
