@@ -61,7 +61,7 @@ delay_print(response)
 kingdom = input("What kingdom do you want to be from? A. Rus B. The Empire of the Mongols C. The Empire of the Mongols D. The Kingdom of the Nords E. The Holy Roman Empire ")
 time.sleep(2.5)
 response = f'You will be from {kingdom}.'
-characterType = input("What type of character do you want to be?. You could be a warrior, a bowman, a mage or cavalry. Warriors have 100 hp, 110 defence and 90 attack. Bowmans have 90 hp, 100 defence and 110 attack. Mages have 110 hp, 110 defence and 80 attack. Cavalry have 110 hp, 80 defence and 110 attack. All of these characters also have abilitys and weapons")
+characterType = input("What type of character do you want to be?. You could be a warrior, a bowman, a mage or cavalry. Warriors have 100 hp, 110 defence and 90 attack. Bowmen have 90 hp, 100 defence and 110 attack. Mages have 110 hp, 110 defence and 80 attack. Cavalry have 110 hp, 80 defence and 110 attack. All of these characters also have abilitys and weapons")
 time.sleep(5)
 response = f'Ok you will be called {characterName}, your age will be {age}, you will be a {characterType} and you will be from the {kingdom}'
 delay_print(response)
