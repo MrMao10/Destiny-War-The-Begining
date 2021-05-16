@@ -65,3 +65,37 @@ characterType = input("What type of character do you want to be?. You could be a
 time.sleep(5)
 response = f'Ok you will be called {characterName}, your age will be {age}, you will be a {characterType} and you will be from the {kingdom}'
 delay_print(response)
+time.sleep(10)
+response = f'Wake up... Wake up... *whispers*... WAKE UP {characterName}!!!\n'
+delay_print(response)
+firstReatcion = input("Response Choices:A. Wake up and punch.B. Scream.C. Say I dont want to and fall back sleep.D. You have to type A B C or D!\n")
+if firstReatcion == 'A':
+    delay_print("Ouch! Must of been a big bang on the head! We are not going to kill you.\n")
+elif firstReatcion == 'B':
+    delay_print("Wow there! It's Ok, we're not going to kill you, but they are so quikly come with us!\n")
+elif firstReatcion == 'C':
+    delay_print("Come on you idiot! You'll get everyone killed including you!\n")
+secondReaction = input("Response Choices:B. How can I trust you?C. Get away from me!\n")
+#if secondReaction == 'A' and kingdom == 'Rus':
+    #delay_print("I am Grand Prince Alexander. I am Prince Adrik. And I am Boyar Ivan")
+#elif secondReaction == 'A' and kingdom == 'Nords':
+    #delay_print("I am Jarl Anderson. I am King Erik. And I am Jarl Frode, we are from the Nord Empire.\n")
+#elif secondReaction == 'A' and kingdom == 'Ottoman':
+    #delay_print("I am Sultan Suleiman. I am Emir Utkan. And I am Shemsi Pasha, we are from the Ottoman Empire.\n")
+#elif secondReaction == 'A' and kingdom == 'Urania':
+    #delay_print("I am Emperor Frederick 'Red Beard' Barbarossa. I am Legio IX Hispana. and I am Michael Adolph von Althann, we are from the Holy Roman Empire.\n")
+#elif secondReaction == 'A' and kingdom == 'Mongols':
+    #delay_print("I am Genghis Khan. I am Batu Khan. and I am Jochi Khan, we are from the Mongolian Empire\n")
+if secondReaction == 'A' and kingdom == 'Rus':
+    delay_print("We are the leaders of Rus! I am the Tsar and these are the top Boyars.\n")
+elif secondReaction == 'A' and kingdom == 'Nords':
+    delay_print("We are the leaders of the vikings! I am the king and these are the top Jarls.\n")
+elif secondReaction == 'A' and kingdom == 'Ottoman':
+    delay_print("We are the leaders of the Ottoman Empire! I am the Sultan and these are the top Emirs.\n")
+elif secondReaction == 'A' and kingdom == 'Urania':
+    delay_print("We are the leaders of the Holy Roman Empire! I am the Emperor and these are my top men\n")
+elif secondReaction == 'A' and kingdom == 'Mongols':
+    delay_print("We are the leaders of the Mongolian Empire! I am the Khan and these are my sons.\n")
+elif secondReaction == 'B':
+    delay_print("We told you, we are not going to kill you!\n")
+delay_print("You were just wondering about like a normal person but then a band of raiders came and fought you, you fought back but there was too many of them. We found you unconcious and temporarily blind. The bandits got away. We are still at the battle site so I suggest we should get out of here before more bandits come.\n")
